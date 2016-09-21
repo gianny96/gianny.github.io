@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css" media="all">@import "StyleSheet.css"</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>my name is
+	<h2>Gianny</h2>
+		</h1>
+
+<p> this is a paragraph
+	<a href="https://www.google.com/">
+		<p>another paragraph</p>
+			<p>another another
+				 <h2>paragraph</h2>
+			</p>
+	</a>
+</p>
+<img src="pepsi.png" alt="Pepsi Logo" style="width:304px;height:304px;">
+	<p>another another another paragraph
+		<a href="https://www.yahoo.com/">
+		</a>
+		<p>another another another another paragraph</p>
+	</p>
+</img>
+
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+</body>
+</html>
