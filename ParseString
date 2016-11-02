@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+<script type="text/javascript">
+function parsePersonIdentity(param){
+	var x = param.split(" ");
+	document.myForm.fName.value = x[0];
+	document.myForm.lName.value = x[1];
+
+	if( x.length == 3){
+		document.myForm.city.value = x[2];
+	} else {
+		var tempCity = "";
+		for(i=2; i<x.length; ++i)
+		tempCity = tempCity + " " + x[i];
+		document.myForm.city.value = tempCity;
+	}
+}
+</script>
+</head>
+<body>
+<form name="myForm">
+<input type='text' name='myInput' size='30'>
+<input type='button' name='doParse' value='Parse the string' onclick="parsePersonIdentity(document.myForm.myInput.value)">
+<br>
+<input type='text' name='fName' size='10'>
+<input type='text' name='lName' size='10'>
+<input type='text' name='city' size='10'>
+</form>
+
+</body>
+</html>
